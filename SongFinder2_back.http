@@ -1,0 +1,6 @@
+@SongFinder2_back_HostAddress = http://localhost:5158
+
+GET {{SongFinder2_back_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
