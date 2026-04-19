@@ -7,6 +7,7 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
+builder.Services.AddHttpClient<SongFinder2_back.Services.GroqService>();
 builder.Services.AddScoped<SongFinder2_back.Services.SpotifyService>();
 builder.Services.AddCors(options =>
 {
